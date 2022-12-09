@@ -1,0 +1,57 @@
+body{
+    background-color: #E8F2FC;
+    
+   
+}
+h1{
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: 500;
+    text-align: center;
+    font-size: 48px;
+    color:#0084F1;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+form{
+    margin-left: 35vw;
+    margin-top: 10vh;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: #374353;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#display{
+    margin:5% 10px ;
+    width: 250px;
+    font-size: 28px;
+    padding: 10px 4px;
+    background-color: #374353;
+    color:#fff;
+    border:none;
+    border-radius:12px;
+    box-shadow:1px 0px 1px 1px #3D4957;
+}
+#display::placeholder{
+    color:#fff;
+}
+input[type=button]{
+    margin: 4px 3px;
+    padding: 0;
+    width: 65px;
+    height: 65px;
+    font-size: 28px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background: none;
+    color:#c4c4c4;
+    border: none;
+    border-radius:18px;
+}
+input[type=button]:hover{
+    box-shadow:-1px -3px 2px 2px #3D4957;
+    background-color: #353f4d;
+    color:#fff;
+}
